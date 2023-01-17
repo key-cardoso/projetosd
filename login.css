@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background: #ffcc13;
+    
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffcc13;
+    word-spacing: Xpx;
+
+    
+}
+.menu-principal {
+    display: flex;
+    gap: 32px;
+}
+.menu-item {
+    font-family: 'Sarala', sans-serif;
+    color:  #050000;
+    font-weight: 400;
+    font-size: 18px;
+    gap: 40px;
+
+}
+.imagem {
+    height: 100px;
+}
+
+.main-login{
+    border-top: 0.4px solid #050000;
+    margin-bottom: 10px;
+    width: 100vw;
+    height: 100vh;
+    background: #ffcc13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-login{
+    width: 76%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    pad: 30px 35px;
+    background: #c8a2c8;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #5f4e5f;
+}
+.card-login > h1{
+    color: black;
+    font-family: 'Sarala', sans-serif;
+    margin: 0;
+
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 10px 40px #5f4e5f;
+    font-family: 'Righteous', cursive;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color: black;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+
+
+}
+.botao{
+    width: 30%;
+    padding: 10px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    background: #ff8c00;
+    box-shadow: 0 px;
+    font-family: sans-serif;
+}
+.rodape {
+    padding: 30px;
+    border-top: 0.4px solid#050000;
+    
+}

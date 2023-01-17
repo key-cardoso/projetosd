@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aprenda com os melhores cursos de musica">
+    <title>Professor Wellington Luis</title>
+    <link rel="stylesheet" type="text/css" href="paginaCadastro.css">
+</head>
+
+<body>
+    <!-- Cabecalho da pagina -->
+    <header class="cabecalho">
+        <!-- Logo da pagina -->
+        <img class="imagem" src="logo.png">
+        <!-- Menu principal da pagina -->
+        <nav class="menu-principal">
+            <a class="menu-item">Sobre</a>
+            <a class="menu-item">Cursos</a>
+            <a class="menu-item">Contatos</a>
+            <a class="menu-item">Login</a>
+            <a class="menu-item" href="cadastro.html" target="_blank">Cadastro</a>.</p>
+        </nav>
+    </header>
+    <!-- Menu principal da pagina -->
+    <main class="conteudo">
+        <!-- corpo da página -->
+        <section class="form-completo">
+            <div class="topo-formulario">
+                <h1 id="titulo">Cadastre-se</h1>
+                <p id="subtitulo">Complete suas informações</p><br> 
+            </div>
+        </section>
+        <form>
+            <fieldset class="grupo">
+                <!-- Criando o campo nome -->
+                <div class="campo">
+                    <label for="nome"> <strong> Nome</strong></label>
+                    <input type="text" name="Nome" id="nome" required>
+                </div>
+                <!-- Criando campo sobrenome -->
+                <div  class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="Sobrenome" id="sobrenome"required>
+                </div>
+            </fieldset>
+            <!-- Criando campo de email -->
+            <div  class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <!-- Criando campo senha -->
+            <div  class="campo">
+                <label for="senha"><strong>Senha</strong></label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+            <!-- Criando campo celular -->
+            <div class="campo">
+                <label for="celular"><strong>Celular</strong></label>
+                <input type="tel" id="celular" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+    
+            </div>
+            <!-- Criando opções de sexo -->
+            <div class="campo">
+                <label for="sexo"><strong>Sexo</strong></label>
+                <label for="masculino">
+                    <input type="radio" name="masculino" value="masculino">Masculino
+                </label>
+                <label for="feminino">
+                    <input type="radio" name="femenino" value="femenino">Feminino
+                </label>
+                <label for="outros
+                ">
+                    <input type="radio" name="outro" value="outro">Outro
+                </label>
+            </div>
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button> 
+        </form>
+    </main>
+    <!-- Rodape da pagina -->
+    <footer class="rodape">
+
+    </footer>
+
+</body>
+
+</html>
