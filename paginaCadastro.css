@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
 
 /* dando um reset na formataçãp */
 
@@ -83,6 +82,10 @@ a:hover {
     width: 98px;
     text-align: center;
     background-color: bisque;
+}
+
+.campo {
+    margin-bottom: 0.2em;
 }
 
 .campo label {
