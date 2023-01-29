@@ -56,7 +56,7 @@ body {
     justify-content: center;
     gap: 30px;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
     text-align: center;
     font-family: 'Arvo', serif;
     color: #1d3557;
@@ -85,16 +85,48 @@ a:hover {
     background-color: bisque;
 }
 
-.campo {
-    margin-bottom: 0.2em;
+.campo label {
+    display: flex;
+    color: #1d3557;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-.campo label {
-    color: #050000;
-    display: flex;
-    font-family: sans-serif;
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+    border: none;
 }
 
 .rodape {
     height: 100px;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"],
+.campo input[type="tel"] {
+    padding: 0.2em;
+    border: 2px solid #1d3557;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid #457b9d;
+    height: 28px;
+    width: 98px;
+    text-align: center;
+    background-color: bisque;
+    color: #1d3557;
+    font-weight: 400;
+    font-size: 15px;
 }
