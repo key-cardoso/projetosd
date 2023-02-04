@@ -1,0 +1,19 @@
+CREATE DATABASE Site;
+Use Site;
+
+CREATE TABLE usuario (
+            ID_usuario INT AUTO_INCREMENT PRIMARY KEY,
+            nome VARCHAR(255) NOT NULL,
+            sobrenome VARCHAR(255) NOT NULL,
+            email VARCHAR(255) NOT NULL UNIQUE,
+            senha VARCHAR(255) NOT NULL.
+            celular VARCHAR(255) NOT NULL,
+            sexo ENUM('Masclino', 'Femenino', 'Outros')
+        )
+CREATE TABLE cursos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_Curso VARCHAR(100) NOT NULL,
+    descrição_Curso TEXT NOT NULL,
+    valor_Curso INT (255) NOT NULL,
+    
+);
